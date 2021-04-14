@@ -1,4 +1,5 @@
-# SampleCode
+# Code Directory
+
 Here is a repository of code I intend on keeping code I worked on from the past/will work on future
 
 Independent Work: Code that I worked on for my own projects (Junior Paper, Senior Thesis)
