@@ -11,7 +11,7 @@
   if c(os) == "MacOSX"  global user "/Users/`c(username)'"
   display "User name: $user"
 * Path to folder
-  global myfolder = "$user/Desktop/RA_Wantchekon"
+  global myfolder = "$user/Documents/Github/SampleCode/RA Work/Wantchekon20-21"
 * Output to folder
   global output = "$myfolder"
 * set globals
