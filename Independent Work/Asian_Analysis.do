@@ -35,6 +35,7 @@
 	   replace New_`x'= `x' if New_`x' < `x' & `x'!=.
 	   replace `x' = New_`x' if `x'==.
 	}
+}
 	egen T = rowtotal(A BC)
 	egen NT = rowtotal(DE HJ FL GI)
 	foreach x in T NT{
@@ -74,7 +75,7 @@ local J = `j'-1
 cap gen d1_`i'_`J' = (l.`i' - l`j'.`i')/l`j'.GDP
 }
 }
-	}
+
 
 	* Summary stats
 	eststo summary: estpost sum  T NT d1_T_3 d1_HH_3 d1_NT_3
